@@ -9,7 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
     <style>
-        /* Previous styles remain the same */
+        
         * {
             margin: 0;
             padding: 0;
@@ -175,7 +175,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
     <script>
-        const API_KEY = "api_key"; // Replace with your OpenWeatherMap API key
+        const API_KEY = "process.env.API_KEY";
         let map = null;
         let marker = null;
 

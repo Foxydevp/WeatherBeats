@@ -1,5 +1,5 @@
 
-const API_KEY = "API_KEY"; // Replace with your OpenWeatherMap API key
+const API_KEY = API_KEY // Replace with your OpenWeatherMap API key
 let map = null;
 let marker = null;
 
